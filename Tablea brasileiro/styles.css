@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td:nth-child(2) {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+td:nth-child(2) img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+td:last-child {
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+td:last-child .win {
+    color: green;
+}
+
+td:last-child .draw {
+    color: gray;
+}
+
+td:last-child .lose {
+    color: red;
+}
